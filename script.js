@@ -1,6 +1,6 @@
 window.addEventListener('resize', function() {
-    var width = window.innerWidth;
-    var height = window.innerHeight;
+    let width = window.innerWidth;
+    let height = window.innerHeight;
     
     document.getElementById('size').innerHTML = 'Ширина: ' + width + ', висота: ' + height;
 });
